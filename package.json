@@ -1,6 +1,5 @@
 {
   "name": "mishka-26",
-  "homepage": "https://MetlikGG.github.io/2119997-mishka-26",
   "private": true,
   "description": "Личный проект «Мишка» от HTML Academy",
   "devDependencies": {
@@ -8,7 +7,6 @@
     "autoprefixer": "10.4.0",
     "browser-sync": "2.27.7",
     "del": "^6.0.0",
-    "gh-pages": "^5.0.0",
     "gulp": "4.0.2",
     "gulp-dart-sass": "^1.0.2",
     "gulp-htmlmin": "^5.0.1",
@@ -29,9 +27,7 @@
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "lint": "npm run editorconfig && npm run stylelint",
     "build": "gulp build",
-    "start": "gulp",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "gulp"
   },
   "browserslist": [
     "last 2 versions",
